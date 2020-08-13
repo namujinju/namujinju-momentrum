@@ -1,3 +1,3 @@
 # Namujinju's Momentrum
 
-cloning chrome app
+Cloning Chrome app
