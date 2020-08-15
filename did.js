@@ -2,14 +2,13 @@ const didForm = document.querySelector(".js-didform"),
   didInput = didForm.querySelector("input"),
   didList = document.querySelector(".js-didlist");
 
-
 const DID_LS = "dids";
 
 let dids = [];
 
 function deleteDid(event) {
-  const btn = event.target,
-    li = btn.parentNode; // 내가 클릭한 delBtn // 내가 클릭한 delBtn의 부모 li
+  const btn = event.target, // 내가 클릭한 delBtn
+    li = btn.parentNode; // 내가 클릭한 delBtn의 부모 li
   didList.removeChild(li);
   // dids 리스트 중 각 요소의 id와 현재 li의 id와 일치하지 않는 요소만 출력
   // li의 id와 일치하는 요소만 걸러짐
